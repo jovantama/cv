@@ -1,0 +1,115 @@
+body{
+	margin: 0;
+}
+
+.left-continer{
+	display: flex;
+	justify-content: center;
+	position: fixed;
+	width: 400px;
+	height: 100vh;
+	background-color: #8EA69B;
+}
+
+.foto-kontak{
+	position: absolute;
+	top: 170px;
+	text-align: center;
+}
+
+.photo{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+
+.btn{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	border-radius: 14px;
+	background-color: white;
+	margin-bottom: 12px;
+	font-size: 1.1rem;
+	font-weight: bold;
+	padding: 10px;
+}
+
+.btn:hover{
+	background-color: black;
+	color: white;
+	transition: 0.5s;
+}
+
+.link-contactme{
+	text-decoration: none;
+}
+
+.right-continer{
+	position: absolute;
+	overflow-y: scroll;
+	left: 400px;
+	width: 150vh;
+	height: 100vh;
+}
+
+.top-bar{
+	position: relative;
+	padding-top: 50px;
+	padding-left: 100px;
+}
+
+.title-top-bar{
+	font-weight: bold;
+	font-style: italic;
+	font-size: 1.3rem;
+}
+
+.list-menu{
+	float: right;
+	padding-right: 50px;
+}
+
+.menu{
+	font-size: 1.1rem;
+	padding: 0 15px;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+#nama{
+	padding-top: 100px;
+	padding-left: 100px;
+}
+
+#about{
+	padding-top: 100px;
+	padding-left: 100px;
+}
+
+#exsperience{
+	padding-top: 250px;
+	padding-left: 100px;
+}
+
+#contact{
+	padding-top: 100px;
+	padding-left: 100px;
+}
+.c{
+	font-weight: bold;
+	text-transform: capitalize;
+}
+
+#footer{
+	padding-top: 250px;
+	text-align: center;
+	color: darkblue;
+}
+
+p{
+	line-height: 200%;
+}
